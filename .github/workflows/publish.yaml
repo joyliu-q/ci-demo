@@ -11,7 +11,7 @@ jobs:
       - name: Lint test
         run: npm run lint
   publish:
-    name: Run lint
+    name: Publish application
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
