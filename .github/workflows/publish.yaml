@@ -6,5 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          echo "todo"
+      - name: Install Deps
+        run: npm install
+      - name: Lint test
+        run: npm run lint
+          
+          
